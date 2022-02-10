@@ -1,0 +1,30 @@
+.body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template: "nav head" 80px 
+                    "nav main" 1fr 
+                    "foot foot" 130px / 15% 85%;
+}
+
+.header{
+    background-color: red;
+    grid-area: head;
+
+}
+
+.nav{
+    background-color: blue;
+    grid-area: nav;
+}
+
+.main{
+    background-color: green;
+    grid-area: main;
+}
+
+.footer{
+    background-color: aqua;
+    grid-area: foot;
+}
