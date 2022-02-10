@@ -15,7 +15,7 @@
 }
 
 .nav{
-    background-color: blue;
+    background-color: black;
     grid-area: nav;
 }
 
@@ -27,4 +27,12 @@
 .footer{
     background-color: aqua;
     grid-area: foot;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0px 0px 10px;
+
 }
